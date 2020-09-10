@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equip="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Bookmarker</title>
+</head>
+<body onload="fetchBookmarks()">
+	<div class="container">
+		<div class="row">
+			<h1>Bookmarker App</h1>
+			<hr>
+			<form id="" class="formContainer">
+				<h2>Bookmark your favorite sites</h2>
+				<div class="formGroup">
+					<label for="sitename">Site Name</label>
+					<input type="text" name="sitename" id="sitename" class="form-control" placeholder="Enter Website Name ...">
+				</div>
+				<div class="formGroup">
+					<label for="url">Site URL</label>
+					<input type="text" name="url" id="url" class="form-control" placeholder="Website URL">
+				</div>
+				<input type="submit" name="submit" value="Add Bookmark" class="btn">
+			</form>
+			<div class="rowResult">
+				<h1>Bookmarked Sites</h1>
+				<div id="bookmarkedSites">
+				</div>
+			</div>
+			<hr>
+			<footer><p>&copy; 2020 Bookmarker Inc</p></footer>
+		</div>
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>

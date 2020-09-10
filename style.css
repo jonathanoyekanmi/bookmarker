@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto';
+	font-weight: 400;
+	background: #2D3743;
+	color: whitesmoke;
+}
+
+.container {
+	max-width: 1240px;
+	margin: 0px auto;
+}
+
+.row {
+	width: 400px;
+	margin: 50px auto;
+}
+
+.rowResult {
+	margin: 20px 0;
+}
+
+h1 {
+	 font-family: 'Roboto thin';
+	 font-size: 24px;
+}
+
+hr {
+	border: 1px solid #828282;
+	margin: 20px 0;
+}
+
+h2 {
+	text-align: center;
+	margin: 25px 0 15px 0;
+	font-family: 'Roboto thin';
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+	margin: 0 10px;
+	background: #333;
+	color: #fff;
+	font-weight: 100;
+	font-size: 12px;
+	border-radius: 5px;
+}
+
+a.red {
+	background: #DD3333;
+}
+
+
+.formContainer {
+	background: whitesmoke;
+	color: #333;
+	padding: 20px 40px;
+	font-size: 12px;
+	font-weight: bold;
+	border: none;
+}
+
+.bookmarkResult {
+	background: whitesmoke;
+	padding: 3px;
+	color: black;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+label {
+	display: block;
+	margin: 10px;
+	text-align: center;
+}
+
+input[type=text] {
+	width: 100%;
+	padding: 5px;
+	margin-bottom: 10px;
+	outline: none;
+	border: none;
+	box-shadow: 0 0 5px rgba(0,0,0,0.6)
+}
+
+::placeholder {
+	color: #c1c1c1;
+	font-size: 10px;
+}
+
+.btn {
+	width: 40%;
+	padding: 14px 20px;
+	margin: 20px auto;
+	outline: none;
+	border: none;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #DD3333;
+	color: whitesmoke;
+	border-radius: 5px;
+}
+
+
